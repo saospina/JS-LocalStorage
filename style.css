@@ -1,0 +1,33 @@
+h1, h2 {
+  font-family: Lato;
+}
+.container {
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(auto, auto);
+}
+
+.border {
+  border: 1px solid black;
+}
+.mr {
+  margin-right: 5px;
+}
+.button {
+  background-color: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid #008CBA;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
